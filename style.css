@@ -96,12 +96,23 @@ section {
 }
 footer img{
         padding: 10px;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         display: right;
 }
+.footer-sm {
+    text-align: center;
+}
 
+footer img:hover {
+    filter:invert()
+}
 /* Projects Page */
+.project-welcome {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
 
 img {
     height: 300px;
@@ -111,4 +122,36 @@ img {
 .project-index li {
     display: inline-block;
     padding: 3em;
+}
+
+.map {
+    text-align: center;
+    font-size: 20px;
+   
+}
+.eyes {
+    text-align: center;
+    font-size: 20px;
+}
+.pac {
+    text-align: center;
+    font-size: 20px;
+}
+.map:hover {
+    text-decoration: underline;
+}
+
+.eyes:hover {
+    text-decoration: underline;
+}
+
+.pac:hover {
+    text-decoration: underline;
+}
+
+/*connect page*/
+
+.connect-h1 {
+    padding:5rem;
+    text-align: center;
 }
