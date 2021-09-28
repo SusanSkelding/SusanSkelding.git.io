@@ -16,18 +16,6 @@ header{
 }
 
 
-
-header .profilepic img{
-    border-radius:25%;
-    position: absolute;
-    right: 7rem;
-    top: 2rem;
-    width: 100px;
-    height: auto;
-    
-
-}
-
 header .profilepic img:hover {
     filter: brightness(50%);
   
@@ -42,7 +30,10 @@ header .name {
     text-align:center;
     padding: 20px 0;
 }
-
+header .name:hover {
+    color:#fff;
+    background-color: black;
+}
 header nav ul {
     display: block;
     margin: 0 auto;
@@ -155,4 +146,22 @@ img {
 .connect-h1 {
     padding:5rem;
     text-align: center;
+}
+
+/*bio page*/
+.bio-h1{
+    text-align: center;
+    font-size: 30px;
+}
+.biopic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.bio {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
