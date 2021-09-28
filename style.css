@@ -64,10 +64,13 @@ main {
 }
 
 section {
-    padding:20px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .boxlink {
-    margin: 16px 16px 0;
+    margin-left: auto;
+    margin-right: auto;
     width: calc(100% - 32px);
     height: 100px;
     background-color: #7a7a7a;
@@ -96,6 +99,8 @@ footer img:hover {
 }
 /* Projects Page */
 .project-welcome {
+    margin: block 75px;;
+    padding-top: 75px;
     text-align: center;
     font-size: 25px;
     font-weight: 900;
@@ -111,31 +116,28 @@ img {
     padding: 3em;
 }
 
-.map {
-    text-align: center;
-    font-size: 20px;
-   
-}
-.eyes {
-    text-align: center;
-    font-size: 20px;
-}
-.pac {
-    text-align: center;
-    font-size: 20px;
-}
-.map:hover {
+.project-title{
+    font-size: 50px;
     text-decoration: underline;
+    text-align: center;
 }
 
-.eyes:hover {
-    text-decoration: underline;
+.projects-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 
-.pac:hover {
-    text-decoration: underline;
+.projects-img:hover {
+    filter: invert();
 }
 
+.description {
+    font-size: 25px;
+    text-align: center;
+    grid-template:auto
+}
 /*connect page*/
 
 .connect-h1 {
@@ -143,10 +145,27 @@ img {
     text-align: center;
 }
 
-/*bio page*/
-.bio-h1{
+.p-connect {
     text-align: center;
     font-size: 30px;
+}
+.connect-icon {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.connect-icon:hover {
+    filter:url();
+    filter:brightness(25%)
+}
+/*bio page*/
+.bio-h1{
+    margin: block 75px;;
+    padding-top: 75px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
 }
 .biopic {
   display: block;
@@ -159,4 +178,7 @@ img {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+    margin-left: 100px;
+    margin-right:100px;
 }
+
